@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrador y Descifrador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>La Escítala Espartana</h1>
+    <label for="escitalaInput">Introduce la frase:</label>
+    <input type="text" id="escitalaInput">
+    <br>
+    <label for="escitalaClave">Clave (número de líneas):</label>
+    <input type="number" id="escitalaClave">
+    <br>
+    <div class="botones">
+    <button onclick="cifrarEscitala()">Cifrar</button>
+    <button onclick="descifrarEscitala()">Descifrar</button>
+    </div>
+    <br>
+    <label for="escitalaOutput">Resultado:</label>
+    <div id="escitalaOutput"></div>
+
+    <h1>El Código César</h1>
+    <label for="cesarInput">Introduce la frase:</label>
+    <input type="text" id="cesarInput">
+    <br>
+    <label for="cesarClave">Clave (número de desplazamiento):</label>
+    <input type="number" id="cesarClave">
+    <br>
+    <button onclick="cifrarCesar()">Cifrar</button>
+    <button onclick="descifrarCesar()">Descifrar</button>
+    <br>
+    <label for="cesarOutput">Resultado:</label>
+    <div id="cesarOutput"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
