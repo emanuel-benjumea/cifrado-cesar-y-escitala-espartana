@@ -1,0 +1,2 @@
+# cifrado cesar y escitala espartana
+ Este repositorio contiene implementaciones en JavaScript de dos algoritmos de cifrado históricos: la Escítala Espartana y el Cifrado César. Estos algoritmos han sido utilizados desde tiempos antiguos para proteger mensajes y datos sensibles mediante técnicas de sustitución y transposición de caracteres. A través de este repositorio, los usuarios pueden cifrar y descifrar mensajes utilizando estas técnicas históricas de cifrado.
